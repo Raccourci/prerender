@@ -11,6 +11,7 @@
     "aws-sdk": "~1.13.0",
     "cache-manager": "0.2.0",
     "lodash": "~2.4.0",
+    "mongodb": "^1.4.17",
     "phantom": "~0.5.7",
     "phantomjs": "~1.9.7-1"
   },
