@@ -11,10 +11,10 @@ function decodeUrl(encodedUrl) {
   return new Buffer(encodedUrl, 'base64').toString('ascii');
 }
 
-MongoClient.connect('mongodb://phantomdb1.rc.prod:27017/test', function (err, db) {
+MongoClient.connect('mongodb://phantomdb1.rc.prod:27017/renders', function (err, db) {
 
   if (err) throw err;
-  var cacheCollection = db.collection('test_insert');
+  var cacheCollection = db.collection('renders');
 
   app.use(connectRoute(function (router) {
     router.get('/:encodedUrl', function (req, res, next) {
