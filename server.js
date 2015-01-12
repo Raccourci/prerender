@@ -2,7 +2,7 @@
 var prerender = require('./lib');
 
 var server = prerender({
-  waitAfterLastRequest: 3 * 1000,
+  waitAfterLastRequest: 5 * 1000,
   jsTimeout: 10 * 1000,
   port: 4000,
   noJsExecutionTimeout: 5 * 1000,
