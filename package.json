@@ -15,7 +15,9 @@
     "lodash": "~2.4.0",
     "mongodb": "^1.4.17",
     "phantom": "~0.5.7",
-    "phantomjs": "~1.9.7-1"
+    "phantomjs": "~1.9.7-1",
+    "xmldom": "^0.1.19",
+    "xpath": "0.0.9"
   },
   "bin": {
     "prerender": "server.js"
