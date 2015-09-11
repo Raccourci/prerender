@@ -13,6 +13,8 @@
     "lodash": "^3.1.0",
     "phantom": "^0.7.2",
     "phantomjs": "^1.9.15",
+    "prerender-access-log": "^0.1.0",
+    "prerender-mongodb-cache": "git://github.com/Raccourci/prerender-mongodb-cache.git",
     "tree-kill": "0.0.6"
   },
   "bin": {
